@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> RaGala </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><b>Ra<i>Gala</i></b></a>
+
+        <ul class = "navbar">
+            <li><a href="Palawan.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="ContactUs.html">Contact us</a></li>
+            <li><a href="SignUp.html">Sign In</a></li>
+        </ul>
+
+        <div class = "h-right">
+            <a href="#">Follow us</a>
+            <a href="https://www.instagram.com/aneqlique/"><i class="ri-instagram-fill"></i></a>
+            <a href="https://www.facebook.com/aneglique/"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="https://github.com/aneqlique"><i class="ri-github-fill"></i></a>
+        </div>
+
+    </header>
+    
+
+    <section class = "home" style=" padding-top: 100px; align-items: center; justify-content: center; height: auto; margin: 0 auto; display: flex; ">
+       
+        <div class = "home-text" style=" align-items: center; justify-content: center; align-content: center; margin-left: 50px; margin-right: 50px;">
+            <h1 style="font-size: 3rem;">Book now!</h1>
+            <p style="width: 400px; font-weight: 200; margin-bottom: 5%; font-size: 16px;">  
+                Explore hidden lagoons in El Nido, dive historic shipwrecks near Coron, or marvel 
+                at the Puerto Princesa Underground River. This is your sign to experience some thrilling island-
+                hopping adventures, encounter vibrant marine life, and immersing yourself in the rich culture of 
+                the Philippines' jewel in the crown.  </p>
+            <p style=" font-weight: 200; margin-bottom: 5%; font-size: 16px;"> Kindly fill up the form below by providing your details. </p>
+        </div>
+
+        <div class="booking-form-container">
+            <form class="booking-form" action="#" method="POST">
+                <div class="form-columns">
+                    <div class="column-left">
+                        <div class="bform-group">
+                            <label for="fname" style="margin-top: 0.8%;">First Name:</label>
+                            <input type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="bform-group">
+                            <label for="sname">Surname:</label>
+                            <input type="text" id="sname" name="sname" required>
+                        </div>
+                        <div class="bform-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="...@gmail.com" required>
+                        </div>
+                        <div class="bform-group">
+                            <label for="cellnum">Phone Number:</label>
+                            <input type="text" id="cellnum" name="cellnum" placeholder="+63" minlength="10" maxlength="12" required>
+                        </div>
+                    </div>
+                    <div class="column-right">
+                        <div class="bform-group">
+                            <label for="package">Package:</label>
+                            <select id="package" name="package" required>
+                                <option value="" disabled selected>Select Package</option>
+                                <option value="islandhopping">Island Hopping</option>
+                                <option value="foodtrip">Food Trip</option>
+                                <option value="activities">Activities</option>
+                            </select>
+                        </div>
+                        <div class="bform-group">
+                            <label for="start_bookdate">Start Date:</label>
+                            <input type="date" id="start_bookdate" name="start_bookdate" required>
+                        </div>
+                        <div class="bform-group">
+                            <label for="end_bookdate">End Date:</label>
+                            <input type="date" id="end_bookdate" name="end_bookdate" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="bbutton-group">
+                    <button type="reset" class="btn">Clear</button>
+                    <button type="submit" class="btn">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    
+     <!-- footer  -->
+     <section class="footer">
+        <div class="footer-box">
+            <h3> Policies</h3>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy and Cookies</a>
+        </div>
+
+        <div class="footer-box">
+            <h3> About</h3>
+            <a href="#"> Designer</a>
+            <a href="#"> Information</a>
+        </div>
+
+        <div class="footer-box">
+            <h3> Help</h3>
+            <a href="#"> FAQs</a>
+            <a href="#"> Contact us</a>
+        </div>
+
+        <div class="footer-box">
+            <h3> Social</h3>
+            <div class="social">
+                <a href="https://www.instagram.com/aneqlique/"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.facebook.com/aneglique/"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="https://github.com/aneqlique"><i class="ri-github-fill"></i></a>            
+            </div> 
+        </div>
+    </section>
+
+    <p style=" background-color: #566633; text-align: center; padding-top: 2%; padding-bottom: 1%; font-weight: 300; font-size: 14px;"><br>&nbsp;&nbsp;<br>© 2024 RaGala & Angelique Valdez</p>
+
+
+</body>
+</html>
